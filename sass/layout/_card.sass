@@ -1,0 +1,43 @@
+.card
+    width: 90%
+    max-width: 40rem
+    background: linear-gradient(135deg, #f1dec996, #8d7b6894)
+    color: #fff
+    margin: 1.5rem auto 
+    border-radius: 2rem
+    padding: 3rem 2.5rem
+    text-align: center
+    position: relative
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2)
+    overflow: hidden
+    transition: all 1s
+    @media only screen and (max-width: 960px)
+        padding: 1.5rem 2rem
+        margin-top: 2.5rem
+
+
+.details
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 0 2rem
+    margin-top: 2.5rem
+    @media only screen and (max-width: 960px)
+        margin-top: 4rem
+
+.col
+    display: flex
+    align-items: center
+    text-align: left
+    & img
+        width: 3rem
+        margin-right: 1rem
+
+.col
+    @media only screen and (max-width: 960px)
+        display: flex
+        flex-direction: column
+    
+
+.weather
+    display: none
